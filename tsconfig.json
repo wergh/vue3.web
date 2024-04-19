@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "typeRoots": ["./src/typings", "./types"]
+  }
+}
